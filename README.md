@@ -1,6 +1,11 @@
 Microsoft Azure Practice Documentation -
+
+Before starting with ADF below 3 componets are required and we need to create in [portal.azure.com ](https://portal.azure.com/)
+
 1. 🔹 Resource Group
-What it is
+
+What it is-
+
 • A Resource Group is a logical container in Azure that holds related resources (like storage accounts, databases, Data Factory, Synapse, etc.).
 • It helps with:
 • Organization → Grouping all resources for a project.
@@ -8,7 +13,7 @@ What it is
 • Lifecycle Management → Deleting the group removes all resources inside.
 • Cost Tracking → Monitor billing per group.
 
-   How To create it
+How To create it
 1. Logged into the Azure Portal.
 2. Navigated to Resource Groups → Create.
 3. Selected a Subscription.
@@ -19,7 +24,9 @@ What it is
 
 2.🔹 Storage Account
 
+
 What it is
+
 • A Storage Account provides access to Azure Storage services:
 o Blob Storage → For unstructured data like files, logs, images.
 o Data Lake Storage Gen2 → For big data analytics with hierarchical namespace.
@@ -27,6 +34,7 @@ o File Shares, Queues, Tables → Other storage types.
 • It’s the foundation for storing raw and curated data in BI/ETL workflows.
 
 How To create it-
+
 1. In the Azure Portal, searched for Storage Accounts → Create.
 2. Selected the Resource Group (PracticeRG).
 3. Entered a Storage Account name (globally unique, e.g., practiceadlsgen2).
@@ -38,7 +46,9 @@ How To create it-
 
  
  3.🔹 Azure Data Factory (ADF)
+ 
 What it is
+
 • Azure Data Factory is a cloud-based ETL/ELT service for data integration and orchestration.
 • It lets you:
 • Build pipelines to move and transform data.
