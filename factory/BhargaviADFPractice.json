@@ -1,9 +1,0 @@
-{
-	"name": "BhargaviADFPractice",
-	"location": "eastus",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "6faaba24-af52-4a92-bfda-fe262b749c76",
-		"tenantId": "c3032e74-f645-4233-8ee8-297fa762762b"
-	}
-}
