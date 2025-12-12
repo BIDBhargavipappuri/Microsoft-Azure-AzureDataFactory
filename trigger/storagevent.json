@@ -1,0 +1,24 @@
+{
+	"name": "storagevent",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Storage",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/source/blobs/csvfile",
+			"ignoreEmptyBlobs": false,
+			"scope": "/subscriptions/59dbac27-64c7-4f32-8a83-30da1ff905db/resourceGroups/BhargaviRGADF/providers/Microsoft.Storage/storageAccounts/bhargavistorageblob",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
