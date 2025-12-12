@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copystorge",
+				"name": "Copystorage",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -67,7 +67,7 @@
 				"type": "Delete",
 				"dependsOn": [
 					{
-						"activity": "Copystorge",
+						"activity": "Copystorage",
 						"dependencyConditions": [
 							"Succeeded"
 						]
